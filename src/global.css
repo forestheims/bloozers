@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --color-1: #b9d660;
+    --color-2: #62bfc2;
+    --color-3: #ff34ee;
+    --color-4: #f8c65b;
+    --color-5: #f1c9f7;
+    --color-6: #521444;
+    --color-7: #422079;
+    --color-8: #99bb8c;
+    --color-9: #16fcdd;
+    --color-10: #c4fff7;
+  }
