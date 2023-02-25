@@ -5,7 +5,9 @@ export default function Footer() {
 
   return (
     <footer>
-      <p>{theme}</p>
+      <a href="https://www.facebook.com/Bloozers/">
+        <img src="./images/facebook.png" />
+      </a>
     </footer>
   );
 }
