@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom';
 import { useTheme } from '../../context/themeProvider';
+import styles from './Layout.css';
 
 export default function NavBar() {
   const { theme, setTheme } = useTheme();
@@ -10,14 +11,19 @@ export default function NavBar() {
   };
 
   return (
-    <header>
-      <NavLink to="">Home</NavLink>
-      <NavLink to="music">Our Music</NavLink>
-      <NavLink to="members">The Band Members</NavLink>
-      <NavLink to="contact">Contact</NavLink>
-      <button onClick={(e) => handleClick(e)}>
-        <img src="./images/5558220.png"></img>
-      </button>
+    <header className={styles.Header}>
+      <NavLink className={styles.NavLink} to="">
+        Home
+      </NavLink>
+      <NavLink className={styles.NavLink} to="music">
+        Our Music
+      </NavLink>
+      <NavLink className={styles.NavLink} to="members">
+        The Band Members
+      </NavLink>
+      <NavLink className={styles.NavLink} to="contact">
+        Contact
+      </NavLink>
     </header>
   );
 }

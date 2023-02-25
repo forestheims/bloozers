@@ -1,3 +1,9 @@
 .Music {
-    background-color: var(--color-9);
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.Para {
+    padding: 20px;
 }
