@@ -12,8 +12,9 @@ export default function NavBar() {
   return (
     <header>
       <NavLink to="">Home</NavLink>
-      <NavLink to="posts">Posts</NavLink>
-      <NavLink to="account">Account</NavLink>
+      <NavLink to="music">Our Music</NavLink>
+      <NavLink to="members">The Band Members</NavLink>
+      <NavLink to="contact">Contact</NavLink>
       <button onClick={(e) => handleClick(e)}>
         <img src="./images/5558220.png"></img>
       </button>
