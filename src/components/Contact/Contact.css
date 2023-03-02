@@ -1,9 +1,9 @@
 .Contact {
     width: 100%;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .Para {
     padding: 20px;
+    word-break:keep-all;
 }
