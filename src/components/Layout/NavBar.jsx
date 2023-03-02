@@ -16,10 +16,10 @@ export default function NavBar() {
         Home
       </NavLink>
       <NavLink className={styles.NavLink} to="music">
-        Our Music
+        Music
       </NavLink>
       <NavLink className={styles.NavLink} to="members">
-        The Band Members
+        Members
       </NavLink>
       <NavLink className={styles.NavLink} to="contact">
         Contact
